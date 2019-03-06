@@ -1,8 +1,8 @@
-#### Ubuntu 18.04.2 LTS NOTE
+# Ubuntu 18.04.2 LTS NOTE
 
 ------
 
-##### 解决亮度问题
+## 解决亮度问题
 
 ```shell
 sudo add-apt-repository ppa:apandada1/brightness-controller
@@ -12,7 +12,7 @@ sudo apt install brightness-controller
 
 ------
 
-##### 双系统时间不同步问题
+## 双系统时间不同步问题
 
 > [参考网址](https://www.jianshu.com/p/cf445a2c55e8)
 
@@ -23,7 +23,7 @@ sudo hwclock --localtime --systohc
 
 ------
 
-##### 安装福昕阅读器
+## 安装福昕阅读器
 
 ```shell
 gzip -d 'FoxitReader.enu.setup.2.4.4.0911.x64.run.tar.gz'
@@ -35,7 +35,7 @@ tar xvf 'FoxitReader.enu.setup.2.4.4.0911.x64.run.tar'
 
 ------
 
-##### 安装Notepad++
+## 安装Notepad++
 
 ```shell
 snap install notepad-plus-plus
@@ -48,7 +48,7 @@ sudo snap connect notepad-plus-plus:cups-contro
 
 ------
 
-##### 安装打印机驱动
+## 安装打印机驱动
 
 ```shell
 sudo apt-get install hplip hplip-gui
@@ -58,13 +58,13 @@ sudo hp-plugin
 
 ------
 
-##### 搭建深度学习环境——安装CUDA9.0等
+## 搭建深度学习环境——安装CUDA9.0等
 
 > [参考网址](https://blog.csdn.net/xd_wjc/article/details/83005148)
 
-###### Tips:命令nvidia-smi 查看驱动安装情况
+## Tips:命令nvidia-smi 查看驱动安装情况
 
-##### 安装tensorflow
+## 安装tensorflow
 
 ```shell
 sudo apt-get install python-pip python-dev 
@@ -74,7 +74,7 @@ pip install tensorflow-gpu==1.7（）
 
 ------
 
-##### 安装Typora
+## 安装Typora
 
 > [参考网址](http://support.typora.io/Typora-on-Linux/)
 
@@ -89,21 +89,21 @@ sudo apt-get install typora
 
 ------
 
-##### 安装、激活、配置PyCharm
+## 安装、激活、配置PyCharm
 
 > [参考网址](https://www.cnblogs.com/huozf/p/9304396.html)
 
-##### 安装微信、TIM、百度网盘等
+## 安装微信、TIM、百度网盘等
 
 > [参考github](https://github.com/wszqkzqk/deepin-wine-ubuntu)
 
-##### 安装Popcorn Time
+## 安装Popcorn Time
 
 > [参考网址](https://linux.cn/article-10081-1.html)
 
 ------
 
-##### 卸载Anaconda3 
+## 卸载Anaconda3 
 
 ```shell
 sudo rm -rf ~/anaconda3
@@ -116,7 +116,7 @@ source ~/.bashrc
 
 ------
 
-##### Tips
+## Tips
 
 -  网易云音乐——最小化退出问题
 
@@ -124,7 +124,7 @@ source ~/.bashrc
 sudo killall -9 netease-cloud-music
 ```
 
-- ###### 若之前装了VLC播放器，卸载会影响网易云音乐的使用
+- ### 若之前装了VLC播放器，卸载会影响网易云音乐的使用
 
 ```shell
 # 检查命令
@@ -133,21 +133,21 @@ sudo apt-get check
 sudo apt --fix-broken install
 ```
 
-- ###### PyCharm使用Anaconda环境中的tensorflow时
+- ### PyCharm使用Anaconda环境中的tensorflow时
 
 > 配置环境变量：LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 
-- ###### 安装WPS的字体存储路径
+- ### 安装WPS的字体存储路径
 
 > /usr/share/fonts/wps_symbol_fonts/
 
-- ###### 微信、TIM、百度网盘、Pycharm等软件安装路径
+- ### 微信、TIM、百度网盘、Pycharm等软件安装路径
 
 > /opt/deepinwine/ 
 >
 > /opt/pycharm-2018.3.5/
 
-- ###### 使用anaconda、PyCharm
+- ### 使用anaconda、PyCharm
 
 > 默认的spyder是不支持中文输入的，输入以下代码，重启spyder生效
 
