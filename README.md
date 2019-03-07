@@ -164,7 +164,7 @@ conda list
 conda create --name new_environment python=3
 source activate new_environment
 ```
-- ###### 录屏
+- ### 录屏
 
 ```shell
 # 快捷键——使用默认的录屏
