@@ -164,3 +164,18 @@ conda list
 conda create --name new_environment python=3
 source activate new_environment
 ```
+- ###### 录屏
+
+```shell
+# 快捷键——使用默认的录屏
+# Ctrl + Alt + Shift + R
+# 修改默认时长
+gsettings set org.gnome.settings-daemon.plugins.media-keys max-screencast-length 60
+```
+
+```shell
+# 或者安装录屏软件
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt update
+sudo apt install obs-studio
+```
