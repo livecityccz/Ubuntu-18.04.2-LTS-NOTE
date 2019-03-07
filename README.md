@@ -61,7 +61,7 @@ sudo hp-plugin
 
 > [参考网址](https://blog.csdn.net/xd_wjc/article/details/83005148)
 
-## Tips:命令nvidia-smi 查看驱动安装情况
+#### Tips:命令nvidia-smi 查看驱动安装情况
 
 ## 安装tensorflow
 
