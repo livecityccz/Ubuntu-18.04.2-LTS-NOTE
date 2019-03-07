@@ -167,7 +167,7 @@ source activate new_environment
 - ### 录屏
 
 ```shell
-# 快捷键——使用默认的录屏
+# 快捷键：使用默认的录屏
 # Ctrl + Alt + Shift + R
 # 修改默认时长
 gsettings set org.gnome.settings-daemon.plugins.media-keys max-screencast-length 60
