@@ -183,5 +183,5 @@ sudo apt install obs-studio
 
 ```shell
 # /usr/share/backgrounds/
-# [壁纸网站]: https://wallpaperscraft.com/
 ```
+> [壁纸网站](https://wallpaperscraft.com/)
