@@ -186,7 +186,7 @@ sudo apt install obs-studio
 ```
 > [壁纸网站](https://wallpaperscraft.com/)
 
-- ###### Remote Desktop with VNC Viewer
+- ### Remote Desktop with VNC Viewer
 
 ```shell
 # 如果设置使用密码登录，可能需要运行：
