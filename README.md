@@ -185,3 +185,10 @@ sudo apt install obs-studio
 # /usr/share/backgrounds/
 ```
 > [壁纸网站](https://wallpaperscraft.com/)
+```shell
+# 如果设置使用密码登录，可能需要运行：
+gsettings set org.gnome.Vino require-encryption false
+# 允许所有网络连接：
+gsettings reset org.gnome.Vino network-interface
+# 设置用户为自动登录，重启计算机，使用VNC Viewer即可正常访问
+```
