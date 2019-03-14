@@ -195,3 +195,14 @@ gsettings set org.gnome.Vino require-encryption false
 gsettings reset org.gnome.Vino network-interface
 # 设置用户为自动登录，重启计算机，使用VNC Viewer即可正常访问
 ```
+- ###### sudo systemctl edit apt-daily.timer
+
+```shell
+# apt-daily timer configuration override
+[Timer]
+OnBootSec=15min
+OnUnitActiveSec=1d
+AccuracySec=1h
+RandomizedDelaySec=30min
+```
+
