@@ -205,7 +205,7 @@ OnUnitActiveSec=1d
 AccuracySec=1h
 RandomizedDelaySec=30min
 ```
-##### Uninstall ubuntu clearly
+## Uninstall ubuntu clearly
 
 > [EFI分区](https://blog.csdn.net/qq_28057541/article/details/51723914)
 >
@@ -234,4 +234,3 @@ ls
 cd .\EFI\
 rmdir .\ubuntu\
 ```
-
