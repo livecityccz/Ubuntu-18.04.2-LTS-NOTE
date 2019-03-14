@@ -205,4 +205,33 @@ OnUnitActiveSec=1d
 AccuracySec=1h
 RandomizedDelaySec=30min
 ```
+##### Uninstall ubuntu clearly
+
+> [EFI分区](https://blog.csdn.net/qq_28057541/article/details/51723914)
+>
+> [删除grub引导](http://linuxbsdos.com/2015/09/05/how-to-delete-grub-files-from-a-boot-efi-partition-in-windows-10/)
+
+```powershell
+# 删除Linux分区（此时EFI分区删除不了）
+# 在win10命令行下，删除ubuntu的EFI分区
+# cmd 中输入 Diskpart
+list disk
+select disk 1
+list partition
+select partition 6
+# 必须加override（强制），否则不能删除
+delete partition override
+# 再到powershell中卸载ubuntu的grub引导项 
+diskpart
+list disk
+sel disk
+list vol
+sel vol 3
+assign letter=Y
+exit
+cd Y:
+ls
+cd .\EFI\
+rmdir .\ubuntu\
+```
 
