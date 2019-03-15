@@ -164,6 +164,11 @@ conda list
 conda create --name new_environment python=3
 source activate new_environment
 ```
+> Pycharm运行卡死时
+>
+ ```shell
+ps -ef | grep pycharm | grep -v grep | cut -c 9-15 | xargs kill -s 9
+ ```
 - ### 录屏
 
 ```shell
