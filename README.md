@@ -239,3 +239,15 @@ ls
 cd .\EFI\
 rmdir .\ubuntu\
 ```
+
+> [**去除在开机BIOS启动菜单（uefi菜单中）出现的ubuntu启动项**](https://blog.csdn.net/Vanepin/article/details/8927771)
+
+```shell
+# via a Live Ubuntu CD.
+sudo apt-get install efibootmgr
+sudo modprobe efivars
+# then run sudo efibootmgr to check your boot entries.
+sudo efibootmgr
+# Then delete the option you dont want.In this example, Ubuntu is entry 2.
+sudo efibootmgr -b 5 -B 
+```
