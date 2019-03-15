@@ -249,5 +249,5 @@ sudo modprobe efivars
 # then run sudo efibootmgr to check your boot entries.
 sudo efibootmgr
 # Then delete the option you dont want.In this example, Ubuntu is entry 2.
-sudo efibootmgr -b 5 -B 
+sudo efibootmgr -b 2 -B 
 ```
