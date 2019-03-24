@@ -1,4 +1,4 @@
-# Ubuntu 18.04.2 LTS NOTE
+# :book:Ubuntu 18.04.2 LTS NOTE
 
 
 ## 解决亮度问题
