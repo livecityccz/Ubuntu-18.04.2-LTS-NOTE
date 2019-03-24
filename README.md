@@ -1,4 +1,4 @@
-# :dart: Ubuntu 18.04.2 LTS NOTE
+# Ubuntu 18.04.2 LTS NOTE :dart:
 
 
 ## 解决亮度问题
