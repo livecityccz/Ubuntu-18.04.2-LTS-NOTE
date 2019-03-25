@@ -115,7 +115,7 @@ source ~/.bashrc
 
 ------
 
-## Tips
+## :eyes:Tips
 
 -  网易云音乐——最小化退出问题
 
