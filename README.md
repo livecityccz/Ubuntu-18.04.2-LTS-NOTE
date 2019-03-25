@@ -57,7 +57,7 @@ sudo hp-plugin
 
 ------
 
-## 搭建深度学习环境——安装CUDA9.0等
+## :bulb:搭建深度学习环境——安装CUDA9.0等
 
 > [参考网址](https://blog.csdn.net/xd_wjc/article/details/83005148)
 
