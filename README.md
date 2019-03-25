@@ -47,7 +47,7 @@ sudo snap connect notepad-plus-plus:cups-contro
 
 ------
 
-## 安装打印机驱动
+## :key:安装打印机驱动
 
 ```shell
 sudo apt-get install hplip hplip-gui
