@@ -181,6 +181,15 @@ ps -e|grep apt-get
 # 显示 28843 ?        00:00:00 apt-get
 sudo kill 28843
 ```
+> 安装软件出问题时
+
+> E: 无法打开锁文件 /var/lib/dpkg/lock-frontend - open (13: 权限不够)
+
+> E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+```shell
+sudo -i
+apt-get -f install
+```
 - ### 录屏
 
 ```shell
