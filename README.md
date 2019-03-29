@@ -169,6 +169,16 @@ source activate new_environment
  ```shell
 ps -ef | grep pycharm | grep -v grep | cut -c 9-15 | xargs kill -s 9
  ```
+> apt-get install 软件，出现
+ E: 无法获得锁 /var/lib/dpkg/lock-frontend - open (11: 资源暂时不可用)
+ E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+>
+``` shell
+# 只需要杀死之前的进程，释放系统锁就可以了：
+ps -e|grep apt-get
+# 显示 28843 ?        00:00:00 apt-get
+sudo kill 28843
+```
 - ### 录屏
 
 ```shell
