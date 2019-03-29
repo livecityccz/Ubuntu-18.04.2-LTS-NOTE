@@ -170,9 +170,9 @@ source activate new_environment
 ps -ef | grep pycharm | grep -v grep | cut -c 9-15 | xargs kill -s 9
  ```
 > apt-get install 软件，出现如下错误时：
-
+>
 > E: 无法获得锁 /var/lib/dpkg/lock-frontend - open (11: 资源暂时不可用)
-
+>
 > E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
 >
 ``` shell
@@ -182,9 +182,9 @@ ps -e|grep apt-get
 sudo kill 28843
 ```
 > 安装软件出问题时
-
+>
 > E: 无法打开锁文件 /var/lib/dpkg/lock-frontend - open (13: 权限不够)
-
+>
 > E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
 ```shell
 sudo -i
