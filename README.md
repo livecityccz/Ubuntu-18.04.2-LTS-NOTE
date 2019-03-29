@@ -164,12 +164,12 @@ conda list
 conda create --name new_environment python=3
 source activate new_environment
 ```
-> Pycharm运行卡死时
+> Pycharm运行卡死时:rage:
 >
  ```shell
 ps -ef | grep pycharm | grep -v grep | cut -c 9-15 | xargs kill -s 9
  ```
-> apt-get install 软件，出现如下错误时：
+> apt-get install 软件，出现如下错误时：:rage:
 >
 > E: 无法获得锁 /var/lib/dpkg/lock-frontend - open (11: 资源暂时不可用)
 >
@@ -181,7 +181,7 @@ ps -e|grep apt-get
 # 显示 28843 ?        00:00:00 apt-get
 sudo kill 28843
 ```
-> 安装软件出问题时
+> 安装软件出问题时:rage:
 >
 > E: 无法打开锁文件 /var/lib/dpkg/lock-frontend - open (13: 权限不够)
 >
