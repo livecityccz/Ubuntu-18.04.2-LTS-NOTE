@@ -169,7 +169,7 @@ source activate new_environment
  ```shell
 ps -ef | grep pycharm | grep -v grep | cut -c 9-15 | xargs kill -s 9
  ```
-> apt-get install 软件，出现如下错误时：:pensive:
+> apt-get install 软件，出现如下错误时:pensive:
 >
 > E: 无法获得锁 /var/lib/dpkg/lock-frontend - open (11: 资源暂时不可用)
 >
