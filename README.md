@@ -34,7 +34,7 @@ tar xvf 'FoxitReader.enu.setup.2.4.4.0911.x64.run.tar'
 
 ------
 
-## 安装Notepad++
+## 安装Notepad++ :muscle:
 
 ```shell
 snap install notepad-plus-plus
