@@ -94,7 +94,7 @@ sudo apt-get install typora
 
 ## 安装微信、TIM、百度网盘等
 
-> [参考github](https://github.com/wszqkzqk/deepin-wine-ubuntu)
+> :link:[参考github](https://github.com/wszqkzqk/deepin-wine-ubuntu)
 
 ## 安装Popcorn Time
 
