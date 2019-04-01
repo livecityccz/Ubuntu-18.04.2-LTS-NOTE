@@ -90,7 +90,7 @@ sudo apt-get install typora
 
 ## 安装、激活、配置PyCharm
 
-> [参考网址](https://www.cnblogs.com/huozf/p/9304396.html)
+> :link:[参考网址](https://www.cnblogs.com/huozf/p/9304396.html)
 
 ## 安装微信、TIM、百度网盘等
 
