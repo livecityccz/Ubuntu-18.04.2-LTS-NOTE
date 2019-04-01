@@ -1,7 +1,7 @@
 # Ubuntu 18.04.2 LTS NOTE :dart:
 
 
-## 解决亮度问题 :smile:
+## :smile:解决亮度问题
 
 ```shell
 sudo add-apt-repository ppa:apandada1/brightness-controller
@@ -34,7 +34,7 @@ tar xvf 'FoxitReader.enu.setup.2.4.4.0911.x64.run.tar'
 
 ------
 
-## 安装Notepad++ :muscle:
+## :muscle:安装Notepad++ 
 
 ```shell
 snap install notepad-plus-plus
