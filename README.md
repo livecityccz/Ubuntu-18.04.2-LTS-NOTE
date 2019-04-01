@@ -210,7 +210,7 @@ sudo apt install obs-studio
 ```shell
 # /usr/share/backgrounds/
 ```
-> [壁纸网站](https://wallpaperscraft.com/)
+> :link:[壁纸网站](https://wallpaperscraft.com/)
 
 - ### Remote Desktop with VNC Viewer
 
