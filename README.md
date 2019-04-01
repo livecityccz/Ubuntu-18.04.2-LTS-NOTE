@@ -1,7 +1,7 @@
 # Ubuntu 18.04.2 LTS NOTE :dart:
 
 
-## 解决亮度问题
+## 解决亮度问题 :smile:
 
 ```shell
 sudo add-apt-repository ppa:apandada1/brightness-controller
