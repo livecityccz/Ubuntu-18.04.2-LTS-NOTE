@@ -98,7 +98,7 @@ sudo apt-get install typora
 
 ## 安装Popcorn Time
 
-> [参考网址](https://linux.cn/article-10081-1.html)
+> :link:[参考网址](https://linux.cn/article-10081-1.html)
 
 ------
 
