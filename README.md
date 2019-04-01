@@ -13,7 +13,7 @@ sudo apt install brightness-controller
 
 ## 双系统时间不同步问题
 
-> [参考网址](https://www.jianshu.com/p/cf445a2c55e8)
+> :link:[参考网址](https://www.jianshu.com/p/cf445a2c55e8)
 
 ```shell
 sudo timedatectl set-local-rtc 1
