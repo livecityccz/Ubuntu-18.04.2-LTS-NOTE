@@ -59,7 +59,7 @@ sudo hp-plugin
 
 ## :bulb:搭建深度学习环境——安装CUDA9.0等
 
-> [参考网址](https://blog.csdn.net/xd_wjc/article/details/83005148)
+> :link:[参考网址](https://blog.csdn.net/xd_wjc/article/details/83005148)
 
 #### Tips:命令nvidia-smi 查看驱动安装情况
 
@@ -75,7 +75,7 @@ pip install tensorflow-gpu==1.7（）
 
 ## 安装Typora
 
-> [参考网址](http://support.typora.io/Typora-on-Linux/)
+> :link:[参考网址](http://support.typora.io/Typora-on-Linux/)
 
 ```shell
 wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
