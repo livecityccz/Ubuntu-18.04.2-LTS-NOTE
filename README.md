@@ -190,7 +190,8 @@ sudo kill 28843
 sudo -i
 apt-get -f install
 ```
-> sudo 提示XXX不在 sudoers 文件中。此事将被报告
+> 其他用户创建，删除文件等操作时
+> 错误信息：sudo 提示XXX不在 sudoers 文件中，此事将被报告
 >
 ```shell
 sudo su
