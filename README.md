@@ -190,6 +190,16 @@ sudo kill 28843
 sudo -i
 apt-get -f install
 ```
+> sudo 提示XXX不在 sudoers 文件中。此事将被报告
+>
+```shell
+sudo su
+chmod 740 /etc/sudoers
+vi /etc/sudoers
+# 打开sudoers后，点击“i”进行编辑加上自己的用户名
+# root ALL=(ALL:ALL) ALL
+# xxx ALL=(ALL:ALL) ALL //xxx为用户名
+```
 - ### 录屏
 
 ```shell
