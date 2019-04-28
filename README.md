@@ -68,7 +68,7 @@ sudo hp-plugin
 ```shell
 sudo apt-get install python-pip python-dev 
 # 尽量用pip安装
-pip install tensorflow-gpu==1.7（）
+pip install tensorflow-gpu==1.7
 ```
 
 ------
