@@ -284,3 +284,4 @@ sudo efibootmgr
 # Then delete the option you dont want.In this example, Ubuntu is entry 2.
 sudo efibootmgr -b 2 -B 
 ```
+> :link: [**U盘启动盘恢复至初始状态**](https://www.instructables.com/id/How-to-reuse-revert-re-format-a-USB-flash-drive-fr/)
